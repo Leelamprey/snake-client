@@ -18,6 +18,12 @@ const setupInput = function (conn) {
       connection.write("Move: down");
     } else if(key === 'd') {
       connection.write("Move: right");
+    } else if(key === 'l') {
+      connection.write("Say: You'll never take me alive!");
+    } else if(key === 'k') {
+      connection.write("Say: Catch me if you can");
+    } else if(key === 'j') {
+      connection.write("Say: Snek Blep");
     }
   };
   
